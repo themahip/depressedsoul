@@ -1,0 +1,45 @@
+.Discussionpage {
+  padding: 30px 20%;
+  background: #f0f0f0;
+}
+.discussionborder{
+  padding: 10px 10px;
+  border: #43576c solid 2px;
+}
+.postarea{
+  padding-bottom: 10px;
+  border-bottom: #43576c solid 2px;
+}
+.discussionTextbox {
+  display: flex;
+  width: 100%;
+
+  flex-direction: row;
+}
+.Circle {
+  height: 35px;
+  width: 35px;
+  margin-right: 20px;
+  border-radius: 35px;
+  background-color: black;
+}
+.whatsonyourmind {
+  overflow: hidden;
+  background: none;
+  border: none;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  height: max-content;
+  resize: none;
+}
+.whatsonyourmind:focus {
+  outline: none;
+}
+.post{
+  background: none;
+  border: solid #43576c 2px;
+  border-radius: 10px;
+  background: none;
+  width: 100%;
+}

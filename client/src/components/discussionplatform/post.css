@@ -1,0 +1,38 @@
+.Post {
+  padding: 20px 20px;
+  border-bottom: black 2px solid;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: min-content;
+}
+.header div {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+.header p {
+  padding: 0;
+  margin: 0;
+}
+.header .clientname {
+  font-size: 20px;
+  font-weight: bold;
+  height: min-content;
+}
+.circle {
+  height: 35px;
+  width: 35px;
+  margin-right: 20px;
+  border-radius: 40px;
+  background-color: black;
+}
+.comment{
+    width: 100%;
+    background: none;
+    border:2px solid black;
+    border-radius: 20px;
+}

@@ -1,0 +1,40 @@
+.Service {
+  height: 100vh;
+  overflow: hidden;
+}
+h1,
+h2,
+h3 {
+  padding: 0;
+  margin: 0;
+}
+.serviceti {
+  display: flex;
+  flex-direction: row;
+}
+.servicecontent {
+  width: 100%;
+  height: 100vh;
+}
+.images {
+  height: 100vh;
+  width: 100%;
+}
+.servicecontentt {
+  text-align: left;
+  padding: 30px;
+}
+.serviceno {
+  width: min-content;
+  padding: 5%;
+  font-size: 30px;
+}
+.servicetexts {
+  padding: 10%;
+}
+.servicetitle {
+  font-size: 60px;
+}
+.servicetext {
+  font-size: 20px;
+}

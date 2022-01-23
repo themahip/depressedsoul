@@ -1,0 +1,22 @@
+.Comment {
+  padding: 10px 0px;
+  border-bottom: 1px black solid;
+}
+.commentheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.commentheader div {
+  display: flex;
+  flex-direction: row;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+.commentname {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
